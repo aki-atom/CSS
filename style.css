@@ -1,24 +1,5 @@
-.normal {
-    background-color: coral;
-}
-.box{
-
-    background-color: pink;
-    /* Content bbox */
-    width: 200px;
-    height: 200px;
-
-    /* Padding box */
-    padding: 8px 12px 16px 20px;
-
-    /* Margin box */
-    margin: 8px 12px 16px 20px;
-
-    /* border box*/
-    border: 5px solid black;
-
-    box-sizing: border-box;
-}
-.margin {
-    background-color: lightblue;
+div, span {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
 }
