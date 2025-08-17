@@ -1,5 +1,17 @@
-div, span {
-    background-color: orange;
-    width: 100px;
-    height: 100px;
+
+.exsample {
+    background-color: pink;
+    padding: 20px;  
+}
+.exsample span {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: limegreen;
+}
+.exsample div {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: limegreen;
 }
