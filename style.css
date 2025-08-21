@@ -1,19 +1,30 @@
-
-.exsample {
+.container {
+    width: 1000px;
+    background-color: coral;
+    display: flex;
+    flex-direction: row; 
+}
+.item {
+    height: 200px;
+}
+.item1 {
     background-color: pink;
-    padding: 20px;  
+    width: 100px; 
+    flex-shrink: 0; 
 }
-.exsample span {
-    display: inline-block;
-    margin: 20px;
-    border: 1px solid black;
-    padding: 20px;
-    background-color: limegreen;
+.item2 {
+    background-color: skyblue;
+    width: 100px; 
+    flex-shrink: 0; 
 }
-.exsample div {
-    display: inline;
-    margin: 20px;
-    border: 1px solid black;
-    padding: 20px;
-    background-color: limegreen;
+
+.measure {
+    display: flex; 
+    border-top: solid 2px black; /* 上部に黒い罫線を追加 */
+    background-color: green; /* 背景色を薄い灰色に変更 */
+    color: black; /* 文字色を黒に変更 */
+}
+.measure div {
+    width: 100px;
+    border-right: solid 2px black; /* 右側に黒い罫線を追加 */
 }
