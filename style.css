@@ -8,11 +8,13 @@
 }
 .item1 {
     background-color: pink;
-    flex: 3;
+    width: 100px;
+    flex-grow: 6;
 }
 .item2 {
     background-color: skyblue;
-    flex: 2;
+    width: 200px;
+    flex-grow: 1;
 }
 
 .measure {
